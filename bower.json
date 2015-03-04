@@ -1,0 +1,29 @@
+{
+  "name": "admission-google",
+  "version": "0.0.0",
+  "description": "Google identity provider for Admission.",
+  "authors": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "homepage": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/admission-google.git"
+  },
+  "license": "MIT",
+  "main": "main.js",
+  "dependencies": {
+    "class": "git://github.com/anchorjs/class.git#master",
+    "admission-oauth2": "git://github.com/jaredhanson/admission-oauth2.git#master"
+  },
+  "ignore": [
+    ".gitignore",
+    ".jshintrc",
+    "Makefile",
+    "README.md",
+    "component.json",
+    "package.json",
+    "test"
+  ]
+}
